@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Numbers Generator</title>
+  </head>
+  <body>
+    <div class="app">
+      <h1>Random Numbers Generator</h1>
+      <div class="container">
+        <div class="controls-wrapper">
+          <div class="control-wrapper">
+            <div class="label">Minimum</div>
+            <input type="number" id="min" placeholder="0" min="0" value="0"/>
+          </div>
+
+          <div class="control-wrapper">
+            <div class="label">Maximum</div>
+            <input type="number" id="max" placeholder="100" min="1" value="100" />
+          </div>
+
+          <div class="control-wrapper">
+            <div class="label">Quantity</div>
+            <input type="number" id="quantity" placeholder="1" min="1" value="1"/>
+          </div>
+        </div>
+        <button type="button" class="generate-btn">Generate</button>
+        <div class="numbers"></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
